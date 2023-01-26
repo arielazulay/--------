@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto&display=swap");
+body {
+  background-color: black;
+  color: white;
+}
+.sponsers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+.card {
+  margin: 10px;
+}
+.navbar-brand {
+  font-family: "Henny Penny", cursive;
+  color: blue;
+}
+.card-text {
+  border-top: 1px solid #000;
+}
+.navbar {
+  height: 80px;
+}
+/* @media screen and (min-width: 800px) { 
+  .navbar {
+    display: ;
+  }
+}  */
+.explain {
+  background-color: #000;
+  display: flex;
+  color: white;
+  /* border: 1px solid #f2cc0f; */
+  border-radius: 10;
+}
+.explain-side {
+  /* border: 1px solid #000; */
+  background-color: #f2cc0f;
+  color: black;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: underline;
+}
+.any-explain {
+  /* border: 1px solid #f2cc0f; */
+  padding: 5px;
+  /* text-decoration: underline; */
+}
+footer {
+  color: white;
+}
+.slide {
+  padding: 10px;
+  border-radius: 20px;
+}
