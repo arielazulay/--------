@@ -23,6 +23,11 @@ body {
   font-family: "Henny Penny", cursive;
   color: blue;
 }
+.navbar-brand-main {
+  font-family: "Henny Penny", cursive;
+  color: blue;
+  text-decoration: none;
+}
 .card-text {
   border-top: 1px solid #000;
 }
@@ -61,4 +66,15 @@ footer {
 .slide {
   padding: 10px;
   border-radius: 20px;
+}
+img {
+  border-radius: 20px;
+}
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    display: none;
+  }
+  .navbar-brand-side {
+    display: on;
+  }
 }
