@@ -74,7 +74,7 @@ footer {
 img {
   /* border-radius: 20px; */
 }
-@media screen and (max-width: 584px) {
+@media screen and (max-width: 472px) {
   #navbar {
     width: 100%;
   }
