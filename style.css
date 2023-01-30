@@ -74,11 +74,11 @@ footer {
 img {
   /* border-radius: 20px; */
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 584px) {
+  #navbar {
+    width: 100%;
+  }
   .navbar-brand {
     display: none;
-  }
-  .navbar-brand-side {
-    display: on;
   }
 }
